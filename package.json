@@ -7,7 +7,6 @@
     "test": "test"
   },
   "dependencies": {
-    "cwise-compiler": "^1.1.2",
     "ndarray": "^1.0.13"
   },
   "devDependencies": {
@@ -15,8 +14,7 @@
     "cwise-bake": "0.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js",
-    "build": "node build.js > doConvert.js"
+    "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
